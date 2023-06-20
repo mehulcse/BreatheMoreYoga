@@ -314,6 +314,12 @@ nav span {
     text-transform: uppercase;
 }
 
+nav span a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 nav .another {
     margin-top: 5px;
 }
@@ -391,7 +397,7 @@ header .border-img {
     -o-transition: 0.5s;
 }
 
-/*==================== 
+/*====================
     Banner Styles
 ====================*/
 
@@ -506,7 +512,11 @@ header .border-img {
     border: 2px solid #ffffff;
 }
 
-/*==================== 
+.banner-home .text {
+    /*margin-top: 100px;*/
+}
+
+/*====================
     About Styles
 ====================*/
 
@@ -605,7 +615,7 @@ header .border-img {
 }
 
 .about .circle__content h4 {
-    font-size: 34px;
+    font-size: 28px;
     padding-bottom: 15px;
 }
 
@@ -629,7 +639,7 @@ header .border-img {
     color: #ffffff;
 }
 
-/*==================== 
+/*====================
     section-4 Styles
 ====================*/
 
@@ -649,7 +659,7 @@ header .border-img {
 }
 
 .section-4 .right-part {
-    padding: 70px 0;
+    padding: 40px 0;
     padding-left: 50px;
 }
 
@@ -728,7 +738,7 @@ header .border-img {
     height: 0px;
 }
 
-/*==================== 
+/*====================
     Services Styles
 ====================*/
 
@@ -747,7 +757,7 @@ header .border-img {
 }
 
 .services .right-part {
-    padding-top: 70px;
+    padding-top: 40px;
     padding-left: 50px;
 }
 
@@ -782,9 +792,23 @@ header .border-img {
     padding-right: 660px;
 }
 
-.services a {
+.services ul li {
+    border-bottom: 1px solid #111111;
+    padding-bottom: 12px !important;
+    margin-bottom: 12px !important;
+}
+
+.services a, .services .title {
     color: #000000;
     font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.services .description {
+    color: #000000;
+    font-size: 18px;
+    padding: 0;
 }
 
 .services .fa {
@@ -825,7 +849,7 @@ header .border-img {
     padding-left: 50px;
 }
 
-/*==================== 
+/*====================
     Blog Styles
 ====================*/
 
@@ -1036,7 +1060,7 @@ header .border-img {
 }
 
 
-/*==================== 
+/*====================
     Contact Styles
 ====================*/
 
@@ -1067,6 +1091,15 @@ header .border-img {
 .contact address span {
     color: #49a003;
     font-weight: 600;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.contact address a {
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .contact .columns-1 {
@@ -2527,7 +2560,7 @@ header .border-img {
         width: 30%;
     }
     .banner-home {
-        height: 450px;
+        height: 480px;
     }
     .banner-home h1 {
         font-size: 30px;
@@ -2544,7 +2577,7 @@ header .border-img {
         display: none;
     }
     .about .circle__content h4 {
-        font-size: 34px;
+        font-size: 30px;
         padding-bottom: 25px;
     }
     .circle__wrapper {
